@@ -13,9 +13,4 @@ services:
     depends_on:
       - db
   db:
-    build: ./dockerfiles/mysql
-    ports:
-      - "3306:3306"
-    environment:
-      MYSQL_ROOT_PASSWORD: password
-      TZ: "Asia/Tokyo"
+    build: ./dockerfiles/psql
