@@ -1,5 +1,5 @@
 class HelloController < ApplicationController
   def index
-    @name = "世界"
+    @name = "ほげほげほげ太郎"
   end
 end
