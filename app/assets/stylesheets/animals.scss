@@ -1,3 +1,24 @@
 // Place all the styles related to the animals controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+a#animal_new {
+  color: deepskyblue;
+}
+
+#animal_title {
+  color: #B00100;
+  font-size: 50px;
+}
+
+#animal_table {
+  th {
+    color: greenyellow;
+  }
+  tbody {
+    color: darkorange;
+  }
+  a {
+    color: purple;
+  }
+}
