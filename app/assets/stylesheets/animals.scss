@@ -4,16 +4,19 @@
 
 a#animal_new {
   color: deepskyblue;
+  transform:rotate(5deg);
 }
 
 #animal_title {
-  color: #B00100;
+  color: #00b01f;
   font-size: 50px;
+  transform:rotate(5deg);
 }
 
 #animal_table {
   th {
     color: greenyellow;
+    transform:rotate(-5deg);
   }
   tbody {
     color: darkorange;
