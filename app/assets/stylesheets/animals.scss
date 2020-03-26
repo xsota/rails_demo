@@ -4,10 +4,10 @@
 
 a#animal_new {
   color: deepskyblue;
-  transform:rotate(5deg);
 }
 
 #animal_title {
+  animation:10s linear infinite rotate;
   color: #00b01f;
   font-size: 50px;
   transform:rotate(5deg);
@@ -23,5 +23,14 @@ a#animal_new {
   }
   a {
     color: purple;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(-360deg);
   }
 }
