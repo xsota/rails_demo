@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :blogs
+  get 'profile/:hoge' => 'profile#index'
   get 'profile' => 'profile#index'
   
   get 'root/index'
