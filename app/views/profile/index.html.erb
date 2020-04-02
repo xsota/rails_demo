@@ -1,12 +1,16 @@
-<h1>ぷろふぃーる</h1>
-<p>こんにちは、私の名前は<%= @name %>です</p>
-<p>私の趣味は<%= @hobby %>です</p>
-<p>出身は<%= @from %>です</p>
-<p>好きなプログラミング言語は<%= @language %>です</p>
+<div id="profile">
+  <h1 id="title">ぷろふぃーる</h1>
+  <p id="name">こんにちは、私の名前は
+    <span><%= @name %></span>
+    です</p>
+  <p id="hobby">私の趣味は<%= @hobby %>です</p>
+  <p id="from">出身は<%= @from %>です</p>
+  <p id="language">好きなプログラミング言語は<%= @language %>です</p>
 
-<p>Twitterのアカウントは
-  <a href="https://twitter.com/xsota">
-    <%= @twitter_account %>
-  </a>
-  です
-</p>
+  <p id="twitter">Twitterのアカウントは
+    <a href="https://twitter.com/xsota">
+      <%= @twitter_account %>
+    </a>
+    です
+  </p>
+</div>
