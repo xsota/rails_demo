@@ -1,13 +1,11 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
+<h1>
   <%= @blog.title %>
-</p>
+</h1>
 
 <p>
-  <strong>Content:</strong>
-  <%= @blog.content %>
+  <%= safe_join(@blog.content.split("\n"), tag(:br)) %>
 </p>
 
 <%= link_to 'Edit', edit_blog_path(@blog) %> |
